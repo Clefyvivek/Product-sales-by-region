@@ -10,9 +10,11 @@
 
  
 ### Goals:
--  
--
--
+- **Benchmark successful sales strategies** by analyzing top‑performing stores and identifying replicable best practices.
+- **Uncover key growth drivers** behind high‑revenue stores, including product mix, promotions, and customer behavior.
+- **Map regional product demand** to determine which categories drive performance in specific geographies.
+- **Enable cross‑store growth** by applying proven strategies to underperforming locations, targeting an initial **≥5% YOY uplift**.
+
 
 
 ### Key Takeaway: </br>
