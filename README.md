@@ -54,15 +54,29 @@ Sales performance shows **steady growth and strong regional demand diversificati
 
 
 ### Recommendations:
-
+| Stakeholder | Recommended Action | Expected Impact |
+|------------ | ------------------ | --------------- |
+| **Store Management** | Reduce reliance on blanket discounts; invest in targeted **marketing & advertising campaigns** to drive sustainable demand. | Higher brand visibility, improved customer acquisition without eroding margins. | 
+| **Operations & Merchandising** | Tailor **product mix by region** (e.g., tablets in the West/Central, laptops in the South, desks in the North). | Better alignment with local demand, reduced inventory waste, and higher sell‑through rates. |
+| **Customer Experience Teams** |  Introduce **after‑sales services** (repairs, spare parts) and loyalty programs to strengthen retention. | New revenue streams, improved customer lifetime value, stronger brand loyalty. | 
+| **Finance & Pricing Teams** | Concentrate **discounts/promotions in Q1** to leverage seasonal demand spikes, while monitoring ROI. | Boost quarterly sales while maintaining profitability across the year. | 
+| **Digital & Payments** | Expand **online payment options** and streamline checkout processes. | Faster transactions, improved convenience, higher conversion rates. |
+| **Quality Assurance** | Investigate high **laptop return rates** and implement stricter quality checks or extended warranties. | Lower return costs, improved customer satisfaction, and stronger trust in product quality. |
+| **Executive Leadership** | Monitor **Store D’s heavy discounting** and set profitability thresholds; benchmark Store A’s product variety strategy. | Balanced growth across stores, reduced margin pressure, scalable best practices. |
 
 
 ### Limitations & Next Steps:
-
+- Data is limited for 2025 for sales data.
+- Some discounts given to customers had a null promotion code.
+- Future: In-depth analysis with complete data for the year 2025, integrating Python/Power BI for interactive dashboards or ML predictions.
 
 
 ### How to Run:
-
+- Clone the repository
+- Import the database
+- Explore the data
+- Key insights
+- That's it! You should now have a fully populated database ready for querying and further exploration. Feel free to modify the queries or extend the analysis. Contributions and suggestions are welcome!
 
 
 ### About Me:
