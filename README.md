@@ -36,9 +36,9 @@ Sales performance shows **steady growth and strong regional demand diversificati
  
 
 ### Data & Modeling:
--
--
--
+- Dataset: product_sales_region (1500 rows) covering the store location, customer type, payment method, promotion code, etc. 
+- Tools: MySQL LAG window function, DATEDIFF,  aggregations (SUM, COUNT, AVG, MIN, MAX ), ALTER TABLE (ADD), Data Manipulation Language (MODIFY), Numeric function (ROUND), etc.
+- Approach: corrected the order date column after getting the irregular date results when queried, applied the LAG window function to calculate year-over-year changes in growth percentage, and compared stores in various locations and regions for sales aspects.
 
 ### Sample SQL Highlights: -- Total amount of the discount offered to the customers using promotion codes
              
