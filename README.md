@@ -42,15 +42,15 @@ Sales performance shows **steady growth and strong regional demand diversificati
 
 ### Sample SQL Highlights: -- Total amount of the discount offered to the customers using promotion codes
              
-                                   SELECT
-                                   	YEAR(OrderDate) Year,
-                                       StoreLocation,
-                                       Promotion,
-                                   	ROUND(SUM((Quantity * UnitPrice) - TotalPrice), 2) AS Total_discount_given
-                                   FROM product_sales_region
-                                   GROUP BY 1, 2, 3
-                                   ORDER BY 4 DESC
-                                   ;
+                               SELECT
+                                	YEAR(OrderDate) Year,
+                                    StoreLocation,
+                                    Promotion,
+                                	ROUND(SUM((Quantity * UnitPrice) - TotalPrice), 2) AS Total_discount_given
+                               FROM product_sales_region
+                               GROUP BY 1, 2, 3
+                               ORDER BY 4 DESC
+                               ;
 
 
 ### Recommendations:
