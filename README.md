@@ -41,17 +41,13 @@ Sales performance shows **steady growth and strong regional demand diversificati
 - Approach: corrected the order date column after getting the irregular date results when queried, applied the LAG window function to calculate year-over-year changes in growth percentage, and compared stores in various locations and regions for sales aspects.
 
 ### Sample SQL Highlights: -- Total amount of the discount offered to the customers using promotion codes
-             
-                               SELECT
-                                	YEAR(OrderDate) Year,
-                                    StoreLocation,
-                                    Promotion,
-                                	ROUND(SUM((Quantity * UnitPrice) - TotalPrice), 2) AS Total_discount_given
-                               FROM product_sales_region
-                               GROUP BY 1, 2, 3
-                               ORDER BY 4 DESC
-                               ;
-
+                        SELECT 
+                            AVG(DATEDIFF(DeliveryDate, OrderDate)) AS avg_delivery_days
+                        FROM product_sales_region
+                        WHERE DeliveryDate IS NOT NULL 
+                          AND OrderDate IS NOT NULL
+                        ;            
+                             
 
 ### Recommendations:
 | Stakeholder | Recommended Action | Expected Impact |
