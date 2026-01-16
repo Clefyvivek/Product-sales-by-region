@@ -1,7 +1,7 @@
 # Product-sales-by-region
 
 ## Executive Summary:
-- **Revenue Growth**: Sales reached **$4.40M** over three years, with a healthy **4.28% YOY growth** from 2023 to 2024, signaling steady recovery and resilience.
+- **Revenue Growth**: Sales reached **$4.48M** over three years, with a healthy **4.28% YOY growth** from 2023 to 2024, signaling steady recovery and resilience.
 - **Regional Strengths**: The **North region** is the top performer ($975,957 revenue), while product preferences vary significantly by geography (e.g., tablets in West/Central, laptops in South). This highlights the need for **region‑specific inventory strategies**.
 - **Store Dynamics**: **Store A** excels in product variety (1,602 SKUs in 2023), while **Store D** dominates category sales but also leads in **returns and discounts**, suggesting both strong demand and margin pressure.
 - **Customer Behavior**: Promotions drive engagement, with **FREESHIP** used 4.4K times, and **online payments** accounting for 22% of transactions ($971K). This underscores the importance of **digital channels and shipping incentives**.
