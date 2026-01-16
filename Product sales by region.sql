@@ -24,22 +24,26 @@ SELECT
     COUNT(*) AS total_rows,
     COUNT(STR_TO_DATE(`Date`, '%d-%m-%Y')) AS successfully_converted,
     COUNT(*) - COUNT(STR_TO_DATE(`Date`, '%d-%m-%Y')) AS failed_to_convert
-FROM product_sales_region;
+FROM product_sales_region
+;
 
 
 -- Removing the old date column renaming the new one
 
-ALTER TABLE product_sales_region DROP COLUMN `Date`;
+ALTER TABLE product_sales_region DROP COLUMN `Date`
+;
 
 
 ALTER TABLE product_sales_region 
-RENAME COLUMN order_date_proper TO `OrderDate`;
+RENAME COLUMN order_date_proper TO `OrderDate`
+;
 
 
 -- Changing the column position
 
 ALTER TABLE product_sales_region
-MODIFY COLUMN OrderDate DATE AFTER ShippingCost;
+MODIFY COLUMN OrderDate DATE AFTER ShippingCost
+;
 
 
 -- Average days it takes for product delivery
@@ -48,7 +52,8 @@ SELECT
     AVG(DATEDIFF(DeliveryDate, OrderDate)) AS avg_delivery_days
 FROM product_sales_region
 WHERE DeliveryDate IS NOT NULL 
-  AND OrderDate IS NOT NULL;
+  AND OrderDate IS NOT NULL
+;
   
   
   -- Total products sold across stores
