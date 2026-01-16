@@ -1,7 +1,7 @@
 # Product-sales-by-region
 
 ## Executive Summary:
-- **Revenue Growth**: Sales reached **$4.48M** over three years, with a healthy **4.28% YOY growth** from 2023 to 2024, signaling steady recovery and resilience.
+- **Revenue Growth**: Sales reached **$4.38M** over three years, with a healthy **4.28% YOY growth** from 2023 to 2024, signaling steady recovery and resilience.
 - **Regional Strengths**: The **North region** is the top performer ($975,957 revenue), while product preferences vary significantly by geography (e.g., tablets in West/Central, laptops in South). This highlights the need for **region‑specific inventory strategies**.
 - **Store Dynamics**: **Store A** excels in product variety (1,602 SKUs in 2023), while **Store D** dominates category sales but also leads in **returns and discounts**, suggesting both strong demand and margin pressure.
 - **Customer Behavior**: Promotions drive engagement, with **FREESHIP** used 4.4K times, and **online payments** accounting for 22% of transactions ($971K). This underscores the importance of **digital channels and shipping incentives**.
@@ -24,7 +24,7 @@ Sales performance shows **steady growth and strong regional demand diversificati
 ### Key Insights:
 | Category | Insight | Metric / Value | Business Implication | Query/dashboard results |
 | -------- | ------- | -------------- | -------------------- | ----------------------- | 
-| **Overall Sales** | Total revenue over 3 years | **≈ $4.40M** | Steady growth; +4.28% YOY (2023→2024) shows resilience post‑pandemic | <img width="191" height="163" alt="image" src="https://github.com/user-attachments/assets/c699a4e6-d570-442d-af83-32c7bfe38513" /> |
+| **Overall Sales** | Total revenue over 3 years | **≈ $4.38M** | Steady growth; +4.28% YOY (2023→2024) shows resilience post‑pandemic | <img width="191" height="163" alt="image" src="https://github.com/user-attachments/assets/c699a4e6-d570-442d-af83-32c7bfe38513" /> |
 | **Regional Performance** |  North region leads | 3,442 units sold, $975,957 revenue | Strongest market; potential to expand product mix | <img width="360" height="255" alt="image" src="https://github.com/user-attachments/assets/fbb1f688-0765-4fc3-9bf0-89e35f9974a9" /> |
 | **Product Leaders by Region** | Top sellers vary by geography | Tablets (West 636, Central 578), Desks (North 581), Laptops (South 544), Phones (East 539) | Regional demand diversification; tailor inventory by region | <img width="305" height="302" alt="image" src="https://github.com/user-attachments/assets/b9dd142f-9ebd-4abb-87e4-7be066237ac0" /> |
 | **Store Performance** | Store A: peak product variety; Store D: peak category sales | Store A: **1,602 SKUs in 2023**; Store D: Tablets (68), Monitors (65), Laptops (64) | Store A excels in breadth, Store D in depth; different strategies | <img width="414" height="300" alt="image" src="https://github.com/user-attachments/assets/2dd45d1e-4a4d-4072-90c3-4f9c76107fe7" /> |
